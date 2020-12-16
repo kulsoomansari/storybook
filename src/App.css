@@ -17,4 +17,11 @@
 button{
    margin-left: 10px !important;
 }
+.form{
+    width: 30%;
+    height: 200px;
+    margin: 0 auto;
+    border:1px solid blue;
+    margin-top: 150px;
+}
 
