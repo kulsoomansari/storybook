@@ -1,10 +1,10 @@
 import React from "react";
 import Register from "./components/Pages/Register";
-import Login from "./components/Pages/Login";
 import Cart from "./components/Pages/Cart";
 import Product from "./components/Pages/Product";
 import Home from "./components/Pages/Home";
 import AppBar from "./components/Pages/AppBar";
+import FirebaseAuth from "./components/Pages/FirebaseAuth";
 import './App.css';
 // import AddList from './components/AddList';
 // import TodoList from './components/AddTodo';
@@ -29,7 +29,7 @@ function App() {
             <Register/>
           </Route>
           <Route path="/login">
-            <Login />
+            <FirebaseAuth />
           </Route>
           <Route path="/cart">
             <Cart />

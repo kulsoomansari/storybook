@@ -17,11 +17,14 @@
 button{
    margin-left: 10px !important;
 }
-.form{
-    width: 30%;
-    height: 200px;
+.card{
+    width: 20%;
+    height: 300px;
     margin: 0 auto;
-    border:1px solid blue;
-    margin-top: 150px;
+    margin-top: 100px;
 }
-
+.form{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
